@@ -1,0 +1,104 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "slug": "ember-and-ash-fire-starter",
+      "name": "Ember and Ash Fire Starter",
+      "description": "Premium fire starting kit with wood shavings, pine sap resin, and desert sage",
+      "price": 24.99,
+      "salePrice": null,
+      "category": "starters",
+      "images": [
+        "/images/products/firestarter.svg",
+        "/images/products/firestarter.svg"
+      ],
+      "inventory": 50,
+      "featured": true,
+      "includes": [
+        "Wood shavings & pine sap resin",
+        "Desert sage leaves",
+        "Dried pine needles",
+        "Juniper twigs",
+        "Sap-soaked lighter wick",
+        "Flint striker"
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "desert-embers-and-flames",
+      "name": "Desert Embers & Flames",
+      "description": "‘Cleanburn’ Piñon + Juniper chiminea wood blend with sage & lavender bundle",
+      "price": 64.0,
+      "salePrice": null,
+      "category": "bundles",
+      "images": [
+        "/images/products/prod1.png"
+      ],
+      "inventory": 20,
+      "featured": true,
+      "includes": [
+        "Half night or Full night size options",
+        "Juniper branches, split pine rounds",
+        "Desert Cleansing bundle (dried sage & lavender)"
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "earth-bones",
+      "name": "Earth Bones",
+      "description": "Split piñon pine and juniper wood with wild kindling and ritual bundle",
+      "price": 58.0,
+      "salePrice": null,
+      "category": "bundles",
+      "images": [
+        "/images/products/prod2.png"
+      ],
+      "inventory": 25,
+      "featured": true,
+      "includes": [
+        "Split piñon pine, split juniper wood",
+        "Wild kindling mix",
+        "Desert Ritual bundle (sage, lavender, palo santo)"
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "last-light-logs",
+      "name": "Last Light Logs",
+      "description": "Three bigger, knotted logs for fireplaces or firepits",
+      "price": 36.0,
+      "salePrice": null,
+      "category": "wood",
+      "images": [
+        "/images/products/prod3.png"
+      ],
+      "inventory": 30,
+      "featured": true,
+      "includes": [
+        "Three large, knotted logs",
+        "Ideal for fireplaces or firepits"
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "flint-and-spark-stoke-service",
+      "name": "Flint & Spark Stoke Service",
+      "description": "Themed setup by a flannel‑clad Slowburn Lumberjack. Choose Desert Embers (chiminea) or Earth Bones (firepit/fireplace). Comes with a Late Night Yule Log.",
+      "price": 149.0,
+      "salePrice": null,
+      "category": "service",
+      "images": [
+        "/images/products/prod4.png"
+      ],
+      "inventory": 10,
+      "featured": true,
+      "includes": [
+        "On‑site themed setup by Slowburn Lumberjack",
+        "Choice of Desert Embers (Chiminea) or Earth Bones (Firepit/Fireplace)",
+        "Includes a Late Night Yule Log to end the evening"
+      ]
+    }
+  ]
+}
+
+

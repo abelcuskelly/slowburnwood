@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env
+.env
+.env.*
+!.env.example
+.env.local
+
+# OS/Editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Vercel/Build tools
+.vercel/
+.turbo/
+
+# Misc
+coverage/
+
+# Local media not for git
+public/videos/source.mov

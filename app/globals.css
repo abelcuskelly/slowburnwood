@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Earth Tones */
+  --color-earth-dark: #3E2723;
+  --color-earth-medium: #6D4C41;
+  --color-earth-light: #A1887F;
+  --color-bone: #F5F5DC;
+
+  /* Flame Colors */
+  --color-flame-primary: #D84315;
+  --color-flame-accent: #FF6E40;
+
+  /* Neutrals */
+  --color-smoke: #424242;
+  --color-ash: #E0E0E0;
+}
+
+/* Font stacks from next/font variables */
+body {
+  font-family: var(--font-sans), system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, 'Apple Color Emoji', 'Segoe UI Emoji';
+}
+
+.font-serif { font-family: var(--font-serif), Georgia, Cambria, 'Times New Roman', Times, serif; }
+.font-accent { font-family: var(--font-accent), cursive; }
+
+/* Smooth rendering */
+* { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+
