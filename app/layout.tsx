@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import { Inter, Playfair_Display, Amatic_SC } from 'next/font/google';
 import Header from '@/components/layout/Header';
@@ -37,6 +37,12 @@ export const metadata: Metadata = {
     shortcut: '/images/favicon.png',
     apple: '/images/favicon.png'
   }
+};
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  viewportFit: 'cover'
 };
 
 export default function RootLayout({
