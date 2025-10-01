@@ -16,7 +16,7 @@ export default function AboutPage() {
       <div className="mt-8">
         <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-ash/40">
           <Image
-            src="/images/about-image.JPG"
+            src="/images/about-page.png"
             alt="About Slowburn Wood Co."
             fill
             className="object-cover"

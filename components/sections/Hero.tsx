@@ -44,8 +44,8 @@ export default function Hero() {
               onCanPlay={() => setVideoLoaded(true)}
               className="w-full h-full object-cover"
             >
-              <source src="/videos/campfire-hero.mp4" type="video/mp4" />
-              <source src="/videos/campfire-hero.webm" type="video/webm" />
+              <source src="/videos/hero-video.mp4" type="video/mp4" />
+              <source src="/videos/hero-video.webm" type="video/webm" />
             </video>
           </div>
 
