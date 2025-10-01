@@ -11,13 +11,14 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const product = products.products.find((p) => p.slug === params.slug);
   if (!product) return { title: 'Product Not Found' };
+  const base = process.env.NEXT_PUBLIC_URL || 'https://slowburnwood.vercel.app';
   return {
     title: `${product.name} | Slowburn Wood Co.`,
     description: product.description,
     openGraph: {
       title: product.name,
       description: product.description,
-      images: [product.images[0]],
+      images: [`${base}${product.images[0]}`],
       type: 'website'
     }
   };

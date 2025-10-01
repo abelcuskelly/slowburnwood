@@ -16,13 +16,13 @@ export const metadata: Metadata = {
   description:
     'Premium, naturally-fallen firewood and ritual fire kits. Hotter. Cleaner. Wilder.',
   robots: { index: true, follow: true },
-  metadataBase: new URL(process.env.NEXT_PUBLIC_URL || 'http://localhost:3000'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_URL || 'https://slowburnwood.vercel.app'),
   openGraph: {
     type: 'website',
     siteName: 'Slowburn Wood Co.',
     images: [
       {
-        url: '/images/favicon.png',
+        url: 'https://slowburnwood.vercel.app/images/about-page.png',
         width: 1200,
         height: 630
       }
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    images: ['/images/favicon.png']
+    images: ['https://slowburnwood.vercel.app/images/about-page.png']
   },
   icons: {
     icon: '/images/favicon.png',
