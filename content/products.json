@@ -9,8 +9,8 @@
       "salePrice": null,
       "category": "starters",
       "images": [
-        "/firestarter.png",
-        "/firestarter.png"
+        "/images/products/firestarter.png",
+        "/images/products/firestarter.png"
       ],
       "inventory": 50,
       "featured": true,
